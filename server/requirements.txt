@@ -1,0 +1,26 @@
+# ANIMA Agent Server Dependencies
+
+# Web framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# WebSockets
+websockets>=12.0
+
+# HTTP client
+httpx>=0.26.0
+
+# Validation
+pydantic>=2.5.0
+
+# CORS
+python-multipart>=0.0.6
+
+# Environment
+python-dotenv>=1.0.0
+
+# LLM Provider - Mistral (required for default LLM)
+mistralai>=0.4.0
+
+# Logging
+loguru>=0.7.0
